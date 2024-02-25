@@ -1,4 +1,6 @@
-from turtle import *
+from turtle import * 
+
+#ეზო
 speed(10)
 penup()
 goto(-1000,-350)
@@ -10,7 +12,8 @@ right(90)
 forward(300)
 right(90)
 forward(1950)
- 
+  
+#1 სახლი
 end_fill()
 color("red", "orange")
 penup()
@@ -27,6 +30,8 @@ end_fill()
 penup()
 goto(-350,50)
 pendown()
+
+#ფანჯრები
 width(6)
 color("white")
 fillcolor("black")
@@ -39,6 +44,9 @@ left(90)
 forward(90)
 left(90)
 forward(45)
+ 
+
+
 penup()
 goto(-450,50)
 pendown()
@@ -53,7 +61,10 @@ forward(45)
 end_fill()
 penup()
 goto(-200,150)
+
 pendown()
+ 
+
 color("red")
 fillcolor("red")
 begin_fill()
@@ -65,6 +76,9 @@ end_fill()
 width(1)
 color("red")
 fillcolor("orange")
+penup()
+goto(-600,-350)
+pendown()
 
 penup()
 goto(0,-350)
@@ -172,6 +186,8 @@ goto(-950,250)
 pendown()
 begin_fill()
 left(180)
+
+#მზე
 for i in range(50):
     forward(300)
     left(172.5)
