@@ -12,7 +12,7 @@ for i in range(49,101):
     print(i)
 
 
-for i in range(101,49):
+for i in range(101,49, -1):
     print(i)
 
 
@@ -28,7 +28,7 @@ for i in range(0, num):
     print(i)
 
 age= int(input())
-second_age= int(input()) 
+second_age=  age + 10
 
 for i in range(age, second_age):
     print(i)
