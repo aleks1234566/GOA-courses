@@ -22,7 +22,8 @@ print(numbers1)
 
 print(numbers[9])
 surname = "Ghomidze"
-print(surname[0] + surname[1] + surname[2] + surname[3] + surname[4] + surname[5] + surname[6] + surname[7])
+for i in range(0, len(surname)):
+    print(surname[i])
 
 
 user_name = input("Enter your Username: ")
