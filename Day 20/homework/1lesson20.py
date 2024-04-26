@@ -1,7 +1,7 @@
 #1) მომხმარებელს შემოატანინეთ სიტყვა და შეამოწმეთ არის თუ არა ის პალინდრომი. პალინდრომი არის სიტყვა, რომელიც შებრუნებულიც ზუსტად იგივე გამოდის - radar, level, rotor. ამ დავალებისთვის გამოიყენეთ ციკლი და indexing.
 word = "kayak"
 reversed_word = ""
-for index in range(len(word) -1, -1, -1):
+for index in range(len(word) - 1, -1, -1):
     reversed_word = reversed_word + word[index]
 
 if word == reversed_word:
@@ -33,3 +33,4 @@ string3 = "Word"
 string4 = "Lzare"
 string5 = "String"
 print(string1[0] + string2[0] + string3[0] + string4[0] + string5[0])
+
