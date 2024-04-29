@@ -16,16 +16,17 @@ Log_in(input("Please Enter your password: "), 2)
 #2)
 def game_record() :
    records = [0]
-   num = 0 
+   
    for i in records:
-      new_record = int(input("Please enter your record: "))
-      num += new_record
+      new_attempt = int(input("Please enter your record: "))
        
-      if num > 0 : 
+       
+      if new_attempt > 0 : 
              
-            print("Congratulations your new record is ", new_record)
-            records.append(new_record)
+            print("your point is", new_attempt)
+            records.append(new_attempt)
             print(records)
+       
       else: 
           return ("Try again")
 game_record()
