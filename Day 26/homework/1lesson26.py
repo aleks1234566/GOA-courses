@@ -12,7 +12,7 @@ print(sum([1,2,3,4,5,6,7,8,9,10]))
 def capitalized_names(names_list):
     changed_list = []
     for name in names_list:
-        changed_list.append( name.capitalize())
+        changed_list.append(name.capitalize())
     return changed_list
 
 print(capitalized_names(["alex", "luka"]))

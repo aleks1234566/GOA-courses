@@ -1,14 +1,10 @@
-def return_area(l,w):
-    if l == w :
-      return l * w
-    else: 
-       return  (2 * l) + (2 * w)
-
-print(return_area(int(input()), int(input())))
-
+# 1) შექმენით ფუნქცია სახელად manual_reverse, რომელიც მიიღებს დალაგებულ კოლექციას. თქვენი დავალებაა, რომ შეაბრუნოთ ეს კოლექცია და დააბრუნოთ ამ სახით.
+def manual_reverse(list):
+    new_list = []
+    for i in range(len(list) -1):
+        new_list.append(i)
+        return new_list
 
 
-def array_plus_array(arr1,arr2):
-    return sum(arr1) + sum(arr2)
 
-print(array_plus_array([1,2,3], [2,3,4]))
+print(manual_reverse(["lUKA", "aLEQSANDRE", "NIKA"]))
