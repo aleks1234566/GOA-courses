@@ -1,10 +1,8 @@
 # 1) შექმენით ფუნქცია სახელად manual_reverse, რომელიც მიიღებს დალაგებულ კოლექციას. თქვენი დავალებაა, რომ შეაბრუნოთ ეს კოლექცია და დააბრუნოთ ამ სახით.
-def manual_reverse(list):
-    new_list = []
-    for i in range(len(list) -1):
-        new_list.append(i)
-        return new_list
+def manual_reverse(collection):
+    res_list = []
+    for i in range(len(collection) - 1,-1,-1):
+        res_list.append(collection[i])
+    return res_list
 
-
-
-print(manual_reverse(["lUKA", "aLEQSANDRE", "NIKA"]))
+print(manual_reverse(["aleqsandre", "luka", "nika"]))
